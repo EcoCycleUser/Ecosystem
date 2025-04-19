@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ecocycle - A sustainable platform connecting food waste producers with organic product manufacturers">
+  <meta name="keywords" content="food waste management, recycling, organic products, sustainability, eco-friendly">
+  <meta name="author" content="Ecocycle">
+  <title>Ecocycle - Turning Food Waste into Worth</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Hero Section -->
+  <header class="hero" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="logo">
+        <a href="/" aria-label="Ecocycle Home">
+          <img src="logo1.png" alt="Ecocycle Logo" width="180" height="60">
+        </a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about" aria-label="About Ecocycle">About</a></li>
+        <li><a href="#how-it-works" aria-label="How Ecocycle Works">How It Works</a></li>
+        <li><a href="#marketplace" aria-label="Ecocycle Marketplace">Marketplace</a></li>
+        <li><a href="#impact" aria-label="Our Impact">Our Impact</a></li>
+        <li><a href="#join" aria-label="Join Ecocycle">Join</a></li>
+        <li><a href="#contact" aria-label="Contact Ecocycle">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content" role="main" id="main-content">
+      <h1 data-aos="fade-up">Turning Food Waste into Worth</h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Connecting food waste producers with sustainable solutions to build a greener future.</p>
+      <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+        <button class="primary-btn" onclick="redirectToForm('seller')" aria-label="Sell your food waste">
+          <i class="fas fa-recycle"></i> Sell Your Food Waste
+        </button>
+        <button class="secondary-btn" onclick="redirectToForm('organizer')" aria-label="Join as an organizer">
+          <i class="fas fa-user-plus"></i> Join as Organizer
+        </button>
+      </div>
+    </div>
+    <div class="hero-stats" data-aos="fade-up" data-aos-delay="600">
+      <div class="stat-item">
+        <span class="stat-number">10,000+</span>
+        <span class="stat-label">Tons Recycled</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">500+</span>
+        <span class="stat-label">Active Partners</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">50+</span>
+        <span class="stat-label">Cities Covered</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section" aria-labelledby="about-heading">
+    <div class="container">
+      <h2 id="about-heading" data-aos="fade-up">About Ecocycle</h2>
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-right">
+          <p>We collect food waste from markets, restaurants, and households, and connect it with organizations that transform it into valuable resources. Our mission is to reduce food waste and promote sustainability through meaningful recycling.</p>
+          <div class="mission-stats">
+            <div class="mission-stat">
+              <i class="fas fa-leaf"></i>
+              <div class="stat-content">
+                <span class="stat-number">10,000+</span>
+                <span class="stat-label">tons of food waste recycled</span>
+              </div>
+            </div>
+            <div class="mission-stat">
+              <i class="fas fa-users"></i>
+              <div class="stat-content">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">active partners</span>
+              </div>
+            </div>
+            <div class="mission-stat">
+              <i class="fas fa-globe"></i>
+              <div class="stat-content">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">cities covered</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-image" data-aos="fade-left">
+          <img src="food_waste_recycle.webp" alt="Ecocycle food waste recycling process" width="500" height="300">
+          <div class="image-overlay">
+            <h3>Our Process</h3>
+            <p>From collection to transformation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Section -->
+  <section id="impact" class="section impact-section" aria-labelledby="impact-heading">
+    <div class="container">
+      <h2 id="impact-heading" data-aos="fade-up">Our Environmental Impact</h2>
+      <div class="impact-grid">
+        <div class="impact-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-cloud"></i>
+          <h3>Carbon Reduction</h3>
+          <p>Reduced CO2 emissions by 25,000 tons through our recycling efforts</p>
+        </div>
+        <div class="impact-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-seedling"></i>
+          <h3>Organic Fertilizer</h3>
+          <p>Produced 5,000 tons of organic fertilizer for sustainable farming</p>
+        </div>
+        <div class="impact-card" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-bolt"></i>
+          <h3>Energy Generation</h3>
+          <p>Generated 2,000 MWh of clean energy from food waste</p>
+        </div>
+        <div class="impact-card" data-aos="fade-up" data-aos-delay="400">
+          <i class="fas fa-hand-holding-heart"></i>
+          <h3>Community Impact</h3>
+          <p>Created 200+ green jobs in local communities</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works" class="section" aria-labelledby="how-it-works-heading">
+    <div class="container">
+      <h2 id="how-it-works-heading" data-aos="fade-up">How It Works</h2>
+      <div class="steps">
+        <div class="step" data-aos="fade-up" data-aos-delay="100">
+          <div class="step-icon">
+            <i class="fas fa-trash-alt"></i>
+          </div>
+          <h3>Food Waste Collected</h3>
+          <p>We collect food waste from various sources including markets, restaurants, and households.</p>
+          <div class="step-details">
+            <ul>
+              <li>Daily collection schedules</li>
+              <li>Specialized containers</li>
+              <li>Real-time tracking</li>
+            </ul>
+          </div>
+        </div>
+        <div class="step" data-aos="fade-up" data-aos-delay="200">
+          <div class="step-icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <h3>Verified for Processing</h3>
+          <p>Our team verifies the quality and type of food waste to ensure it meets our standards.</p>
+          <div class="step-details">
+            <ul>
+              <li>Quality assessment</li>
+              <li>Waste categorization</li>
+              <li>Documentation</li>
+            </ul>
+          </div>
+        </div>
+        <div class="step" data-aos="fade-up" data-aos-delay="300">
+          <div class="step-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3>Supplied to Partners</h3>
+          <p>Verified food waste is transported to our network of certified processing partners.</p>
+          <div class="step-details">
+            <ul>
+              <li>Efficient logistics</li>
+              <li>Temperature control</li>
+              <li>Secure transport</li>
+            </ul>
+          </div>
+        </div>
+        <div class="step" data-aos="fade-up" data-aos-delay="400">
+          <div class="step-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h3>Transformed into Resources</h3>
+          <p>Partners process the food waste into valuable resources like compost and biogas.</p>
+          <div class="step-details">
+            <ul>
+              <li>Compost production</li>
+              <li>Biogas generation</li>
+              <li>Resource recovery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marketplace -->
+  <section id="marketplace" class="section" aria-labelledby="marketplace-heading">
+    <div class="container">
+      <h2 id="marketplace-heading" data-aos="fade-up">Food Waste Marketplace</h2>
+      <div class="marketplace-filters" data-aos="fade-up" data-aos-delay="100">
+        <select id="waste-type" aria-label="Filter by waste type">
+          <option value="all">All Types</option>
+          <option value="vegetable">Vegetable Waste</option>
+          <option value="fruit">Fruit Waste</option>
+          <option value="dairy">Dairy Products</option>
+          <option value="bakery">Bakery Items</option>
+        </select>
+        <select id="sort-by" aria-label="Sort by">
+          <option value="newest">Newest First</option>
+          <option value="quantity-low">Quantity: Low to High</option>
+          <option value="quantity-high">Quantity: High to Low</option>
+        </select>
+      </div>
+      <div class="marketplace-container" id="marketplace-items" role="list">
+        <div class="market-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="item-image">
+            <img src="vegetable_waste.jpg" alt="Vegetable Waste" class="product-image">
+            <span class="item-badge">New</span>
+          </div>
+          <div class="item-content">
+            <h3>Vegetable Waste</h3>
+            <p class="product-description">Fresh vegetable scraps and peels from local markets</p>
+            <div class="item-details">
+              <span class="quantity"><i class="fas fa-weight-hanging"></i> 500 kg</span>
+              <span class="location"><i class="fas fa-map-marker-alt"></i> Green City</span>
+            </div>
+            <button class="primary-btn">Request Collection</button>
+          </div>
+        </div>
+        <div class="market-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="item-image">
+            <img src="fruit_waste.jpg" alt="Fruit Waste" class="product-image">
+            <span class="item-badge">Popular</span>
+          </div>
+          <div class="item-content">
+            <h3>Fruit Waste</h3>
+            <p class="product-description">Fruit peels and scraps from juice bars</p>
+            <div class="item-details">
+              <span class="quantity"><i class="fas fa-weight-hanging"></i> 300 kg</span>
+              <span class="location"><i class="fas fa-map-marker-alt"></i> Eco Valley</span>
+            </div>
+            <button class="primary-btn">Request Collection</button>
+          </div>
+        </div>
+        <div class="market-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="item-image">
+            <img src="bakery_waste.webp" alt="Bakery Waste" class="product-image">
+            <span class="item-badge">Limited</span>
+          </div>
+          <div class="item-content">
+            <h3>Bakery Waste</h3>
+            <p class="product-description">Unsold bread and pastry items</p>
+            <div class="item-details">
+              <span class="quantity"><i class="fas fa-weight-hanging"></i> 200 kg</span>
+              <span class="location"><i class="fas fa-map-marker-alt"></i> Fresh Town</span>
+            </div>
+            <button class="primary-btn">Request Collection</button>
+          </div>
+        </div>
+      </div>
+      <div class="loading-indicator" aria-live="polite">
+        <span class="sr-only">Loading items...</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join as Partner -->
+  <section id="join" class="section" aria-labelledby="join-heading">
+    <div class="container">
+      <h2 id="join-heading" data-aos="fade-up">Join as Partner</h2>
+      <div class="join-content">
+        <div class="join-image" data-aos="fade-right">
+          <img src="join.webp" alt="Join as Partner" width="400" height="300">
+          <div class="join-benefits">
+            <h3>Partner Benefits</h3>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Access to quality food waste</li>
+              <li><i class="fas fa-check-circle"></i> Sustainable business growth</li>
+              <li><i class="fas fa-check-circle"></i> Technical support</li>
+              <li><i class="fas fa-check-circle"></i> Marketing assistance</li>
+            </ul>
+          </div>
+        </div>
+        <form id="join-form" class="form" aria-labelledby="join-form-heading" data-aos="fade-left">
+          <h3 id="join-form-heading" class="sr-only">Partner Registration Form</h3>
+          <div class="form-group">
+            <label for="partner-name">Your Name</label>
+            <input type="text" id="partner-name" name="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="partner-email">Email</label>
+            <input type="email" id="partner-email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="partner-phone">Phone Number</label>
+            <input type="tel" id="partner-phone" name="phone" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+            <label for="partner-location">Location</label>
+            <input type="text" id="partner-location" name="location" placeholder="Enter your location" required>
+          </div>
+          <div class="form-group">
+            <label for="partner-business">Tell us about your business</label>
+            <textarea id="partner-business" name="business" placeholder="Describe your business and experience" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="partner-capacity">Processing Capacity (kg/month)</label>
+            <input type="number" id="partner-capacity" name="capacity" min="1" required>
+          </div>
+          <button type="submit" class="submit-btn">Join Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <h2 id="testimonials-heading" data-aos="fade-up">What Our Partners Say</h2>
+      <p class="testimonials-subtitle" data-aos="fade-up" data-aos-delay="100">Hear from businesses and organizations that have transformed their waste management with Ecocycle</p>
+      
+      <div class="testimonial-slider" data-aos="fade-up" data-aos-delay="200">
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Ecocycle has transformed our waste management process. We've reduced our environmental impact while creating new revenue streams. The platform is intuitive and their support team is always helpful."</p>
+            <div class="testimonial-author">
+              <img src="images/testimonial-1.jpg" alt="Sarah Johnson" class="author-image">
+              <div class="author-info">
+                <h4>Sarah Johnson</h4>
+                <p class="author-title">Restaurant Owner</p>
+                <p class="author-company">Green Bites Restaurant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"The platform is easy to use and has helped us connect with reliable waste processors. We've reduced our waste disposal costs by 40% and improved our sustainability metrics significantly."</p>
+            <div class="testimonial-author">
+              <img src="images/testimonial-2.jpg" alt="Michael Chen" class="author-image">
+              <div class="author-info">
+                <h4>Michael Chen</h4>
+                <p class="author-title">Market Manager</p>
+                <p class="author-company">Fresh Valley Markets</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="testimonial-text">"As a waste processing partner, Ecocycle has provided us with a steady stream of quality organic waste. Their logistics and quality control systems are top-notch, making our operations more efficient."</p>
+            <div class="testimonial-author">
+              <img src="images/testimonial-3.jpg" alt="Emma Rodriguez" class="author-image">
+              <div class="author-info">
+                <h4>Emma Rodriguez</h4>
+                <p class="author-title">Operations Director</p>
+                <p class="author-company">EcoProcess Solutions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-controls">
+        <button class="testimonial-prev" aria-label="Previous testimonial">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="testimonial-dots">
+          <button class="dot active" aria-label="Go to testimonial 1"></button>
+          <button class="dot" aria-label="Go to testimonial 2"></button>
+          <button class="dot" aria-label="Go to testimonial 3"></button>
+        </div>
+        <button class="testimonial-next" aria-label="Next testimonial">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      
+      <div class="testimonial-stats" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-item">
+          <span class="stat-number">98%</span>
+          <span class="stat-label">Partner Satisfaction</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">4.8/5</span>
+          <span class="stat-label">Average Rating</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Active Partners</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="section" aria-labelledby="contact-heading">
+    <div class="container">
+      <h2 id="contact-heading" data-aos="fade-up">Contact Us</h2>
+      <div class="contact-container">
+        <form id="contact-form" class="form" aria-labelledby="contact-form-heading" data-aos="fade-right">
+          <h3 id="contact-form-heading" class="sr-only">Contact Form</h3>
+          <div class="form-group">
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" name="subject" placeholder="Enter subject" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Your Message</label>
+            <textarea id="contact-message" name="message" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <div class="contact-info" data-aos="fade-left">
+          <h3>Get in Touch</h3>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 123 Eco Street, Green City, 12345</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@ecocycle.com</li>
+          </ul>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="contact-hours">
+            <h4>Business Hours</h4>
+            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+            <p>Saturday: 10:00 AM - 4:00 PM</p>
+            <p>Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Ecocycle</h3>
+          <p>Building a sustainable future through food waste management and recycling.</p>
+          <div class="newsletter">
+            <h4>Subscribe to our newsletter</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter your email" required>
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#marketplace">Marketplace</a></li>
+            <li><a href="#impact">Our Impact</a></li>
+            <li><a href="#join">Join Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ecocycle. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Accessibility</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
+</body>
+</html>
